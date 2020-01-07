@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>HW5 Task2</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <main class="wrapper">
+    <header class="navigation">
+      <div class="container">
+        <div class="menu-wrapper">
+          <input class="hamburger-wrapper__item" type="checkbox" name="checkbox" id="hamburger" />
+          <label class="hamburger" for="hamburger">
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+          </label>
+          <nav class="menu">
+            <ul class="menu__list clearfix">
+              <li class="menu__item">
+                <input class="menu__checkbox" type="radio" name="menu" id="menu-checkbox" />
+                <label for="menu-checkbox" class="menu__link">Checkbox</label>
+                <div class="custom-checkbox-container">
+                  <div class="custom-checkbox">
+                    <label for="custom-checkbox" class="custom-checkbox__wrapper">Custom checkbox
+                      <input class="custom-checkbox__checkbox" type="checkbox" name="checkbox" id="custom-checkbox" />
+                      <span class="custom-checkbox__custom-item"></span>
+                    </label>
+                  </div>
+                  <div class="custom-checkbox">
+                    <label for="custom-checkbox-disabled" class="custom-checkbox__wrapper">Custom checkbox (disabled)
+                      <input class="custom-checkbox__checkbox custom-checkbox__checkbox--disabled" type="checkbox"
+                        name="checkbox" id="custom-checkbox-disabled" disabled="disabled" />
+                      <span class="custom-checkbox__custom-item"></span>
+                    </label>
+                  </div>
+                  <div class="custom-checkbox">
+                    <label for="custom-checkbox-checked" class="custom-checkbox__wrapper">Custom checkbox (disabled
+                      and checked)
+                      <input class="custom-checkbox__checkbox custom-checkbox__checkbox--disabled" type="checkbox"
+                        name="checkbox" id="custom-checkbox-checked" disabled="disabled" checked="checked" />
+                      <span class="custom-checkbox__custom-item custom-checkbox__custom-item--disabled"></span>
+                    </label>
+                  </div>
+                </div>
+              </li>
+              <li class="menu__item">
+                <input class="menu__checkbox" type="radio" name="menu" id="menu-accordion" />
+                <label for="menu-accordion" class="menu__link">Accordion</label>
+                <div class="accordion-container">
+                  <ul class="accordion">
+                    <li class="accrordion__title">Accordion</li>
+                    <li class="accordion__item">
+                      <input class="accordion__input" type="checkbox" name="checkbox" id="acc-first" />
+                      <label for="acc-first" class="accordion__wrap">Acc 1</label>
+                      <div class="accordion__content">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipisicing.
+                      </div>
+                    </li>
+                    <li class="accordion__item">
+                      <input class="accordion__input" type="checkbox" name="checkbox" id="acc-second" />
+                      <label for="acc-second" class="accordion__wrap">Acc 2</label>
+                      <div class="accordion__content">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipisicing.
+                      </div>
+                    </li>
+                    <li class="accordion__item">
+                      <input class="accordion__input" type="checkbox" name="checkbox" id="acc-third" />
+                      <label for="acc-third" class="accordion__wrap">Acc 3</label>
+                      <div class="accordion__content">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipisicing.
+                      </div>
+                    </li>
+                  </ul>
+                  <ul class="accordion">
+                    <li class="accrordion__title">Accordion collapsible</li>
+                    <li class="accordion__item">
+                      <input class="accordion__input" type="radio" name="checkbox" id="acc-fourth" checked="checked" />
+                      <label for="acc-fourth" class="accordion__wrap">Acc 4</label>
+                      <div class="accordion__content">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipisicing.
+                      </div>
+                    </li>
+                    <li class="accordion__item">
+                      <input class="accordion__input" type="radio" name="checkbox" id="acc-fifth" />
+                      <label for="acc-fifth" class="accordion__wrap">Acc 5</label>
+                      <div class="accordion__content">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipisicing.
+                      </div>
+                    </li>
+                    <li class="accordion__item">
+                      <input class="accordion__input" type="radio" name="checkbox" id="acc-sixth" />
+                      <label for="acc-sixth" class="accordion__wrap">Acc 6</label>
+                      <div class="accordion__content">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipisicing.
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu__item">
+                <div class="dropdown">
+                  <input class="menu__checkbox" type="radio" name="menu" id="menu-drop-down" />
+                  <label for="menu-drop-down" class="menu__link">+Drop-Down</label>
+                  <div class="dropdown-menu">
+                    <input class="menu__checkbox" type="radio" name="menu" id="menu-link-checkbox" />
+                    <label for="menu-link-checkbox" class="dropdown-menu__item">Checkbox</label>
+                    <input class="menu__checkbox" type="radio" name="menu" id="menu-link-accordion" />
+                    <label for="menu-link-accordion" class="dropdown-menu__item">Accordion</label>
+                    <input class="menu__checkbox" type="radio" name="menu" id="menu-link-drop-down" />
+                    <label for="menu-link-drop-down" class="dropdown-menu__item">Menu</label>
+                    <!-- <a class="dropdown-menu__item" href="#">Checkbox</a>
+                    <a class="dropdown-menu__item" href="#">Accordion</a>
+                    <a class="dropdown-menu__item" href="#">Menu</a> -->
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </main>
+</body>
+</html>
