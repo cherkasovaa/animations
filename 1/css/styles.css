@@ -913,10 +913,14 @@
 .pause-button {
   display: inline-block;
   position: relative;
-  cursor: pointer;
   margin-right: 16px;
   width: 45px;
   height: 45px;
+}
+
+.play-button__img,
+.pause-button__img{
+  cursor: pointer;
 }
 
 .play-button__check,
@@ -932,6 +936,7 @@
   left: 50%;
   -webkit-transform: translate(-50%, -47%);
   transform: translate(-50%, -47%);
+  cursor: pointer;
 }
 
 .play-button__check:checked + .play-button__check-custom:after {
@@ -942,6 +947,7 @@
   left: 50%;
   -webkit-transform: translate(-50%, -47%);
   transform: translate(-50%, -47%);
+  cursor: pointer;
 }
 
 .stock-cards-wrapper {
